@@ -1,0 +1,143 @@
+custom_components/ecoflow_cloud_claudiosv/config_flow.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-380
+custom_components/ecoflow_cloud_claudiosv/api/ecoflow_mqtt.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-152
+custom_components/ecoflow_cloud_claudiosv/devices/internal/delta2_max.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-238
+custom_components/ecoflow_cloud_claudiosv/manifest.json
+  s_49f82484dd1a75::t_8da5e0b85f5c9b 2-17
+custom_components/ecoflow_cloud_claudiosv/devices/internal/wave3.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-23,25-320,322-464
+  s_49f82484dd1a75::t_36e528d1e9f9a2 24
+  s_49f82484dd1a75::t_0b64e87d2c4411 321
+custom_components/ecoflow_cloud_claudiosv/devices/internal/river2_pro.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-129
+custom_components/ecoflow_cloud_claudiosv/devices/internal/delta2.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-197
+custom_components/ecoflow_cloud_claudiosv/number.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-109
+custom_components/ecoflow_cloud_claudiosv/devices/public/delta2.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-17
+custom_components/ecoflow_cloud_claudiosv/api/message.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-45
+custom_components/ecoflow_cloud_claudiosv/climate.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-18
+custom_components/ecoflow_cloud_claudiosv/devices/status_tracker.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-74
+custom_components/ecoflow_cloud_claudiosv/devices/public/delta2_max.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-17
+custom_components/ecoflow_cloud_claudiosv/__init__.py
+  s_49f82484dd1a75::t_31b408a13d1146 15
+  s_49f82484dd1a75::t_0d4814c009d53c 1-14,16-252
+custom_components/ecoflow_cloud_claudiosv/devices/public/river2.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-15
+custom_components/ecoflow_cloud_claudiosv/devices/internal/powerstream.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-154
+custom_components/ecoflow_cloud_claudiosv/devices/internal/wave2.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-89
+custom_components/ecoflow_cloud_claudiosv/devices/__init__.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-231
+custom_components/ecoflow_cloud_claudiosv/devices/public/river2_max.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-15
+custom_components/ecoflow_cloud_claudiosv/devices/internal/proto/ef_river3.proto
+  s_49f82484dd1a75::t_0f838c5b5e46d7 1-441
+custom_components/ecoflow_cloud_claudiosv/devices/internal/delta_max.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-152
+custom_components/ecoflow_cloud_claudiosv/devices/public/delta_pro.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-194
+hacs.json
+  s_49f82484dd1a75::t_e1d97d39046cc2 2
+custom_components/ecoflow_cloud_claudiosv/switch.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-89
+custom_components/ecoflow_cloud_claudiosv/devices/public/smart_home_panel_2.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-129
+custom_components/ecoflow_cloud_claudiosv/devices/internal/river3.py
+  s_49f82484dd1a75::t_0f838c5b5e46d7 1-208,211-661
+  s_49f82484dd1a75::t_e0ce2276ccce91 209-210
+custom_components/ecoflow_cloud_claudiosv/devices/internal/delta_pro.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-206
+custom_components/ecoflow_cloud_claudiosv/devices/internal/river2.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-159
+custom_components/ecoflow_cloud_claudiosv/diagnostics.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-34
+custom_components/ecoflow_cloud_claudiosv/devices/internal/river_max.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-110
+custom_components/ecoflow_cloud_claudiosv/devices/public/data_bridge.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-52
+custom_components/ecoflow_cloud_claudiosv/devices/data_coordinator.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-40
+custom_components/ecoflow_cloud_claudiosv/api/public_api.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-188
+custom_components/ecoflow_cloud_claudiosv/devices/public/wave3.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-89
+custom_components/ecoflow_cloud_claudiosv/devices/internal/glacier.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-134
+custom_components/ecoflow_cloud_claudiosv/devices/const.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-287
+custom_components/ecoflow_cloud_claudiosv/devices/public/delta_pro_ultra.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-120
+custom_components/ecoflow_cloud_claudiosv/devices/public/powerstream.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-128
+custom_components/ecoflow_cloud_claudiosv/devices/internal/proto/ef_river3_pb2.pyi
+  s_49f82484dd1a75::t_0f838c5b5e46d7 1-826
+custom_components/ecoflow_cloud_claudiosv/button.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-32
+.github/CODEOWNERS
+  s_49f82484dd1a75::t_2b846642f44126 1-2
+custom_components/ecoflow_cloud_claudiosv/device_data.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-22
+.github/workflows/zip_release.yaml
+  s_49f82484dd1a75::t_3ac163b8fa57cc 28,33,39,44
+custom_components/ecoflow_cloud_claudiosv/devices/internal/river_mini.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-57
+custom_components/ecoflow_cloud_claudiosv/devices/data_holder.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-127
+custom_components/ecoflow_cloud_claudiosv/devices/internal/river2_max.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-159
+custom_components/ecoflow_cloud_claudiosv/entities/__init__.py
+  s_49f82484dd1a75::t_39549a96d2cbb4 145-149
+  s_49f82484dd1a75::t_0d4814c009d53c 1-144,150-190
+custom_components/ecoflow_cloud_claudiosv/select.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-62
+custom_components/ecoflow_cloud_claudiosv/devices/internal/delta_mini.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-139
+custom_components/ecoflow_cloud_claudiosv/devices/registry.py
+  s_49f82484dd1a75::t_c2122931fe2ddf 38
+  s_49f82484dd1a75::t_0d4814c009d53c 1-15,19-37,39-66
+  s_49f82484dd1a75::t_3547900938e9f9 16-18
+custom_components/ecoflow_cloud_claudiosv/api/__init__.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-102
+custom_components/ecoflow_cloud_claudiosv/devices/public/smart_plug.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-50
+custom_components/ecoflow_cloud_claudiosv/api/private_api.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-120
+custom_components/ecoflow_cloud_claudiosv/recorder.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-9
+custom_components/ecoflow_cloud_claudiosv/devices/public/river2_pro.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-15
+custom_components/ecoflow_cloud_claudiosv/sensor.py
+  s_49f82484dd1a75::t_e7a410420f1c2c 75-82
+  s_49f82484dd1a75::t_0d4814c009d53c 1-74,83-272,276-289,294-400
+  s_49f82484dd1a75::t_185392ae044841 290-293
+  s_49f82484dd1a75::t_5964b96c4a4b9c 273-275
+custom_components/ecoflow_cloud_claudiosv/devices/internal/river_pro.py
+  s_49f82484dd1a75::t_0d4814c009d53c 1-132
+custom_components/ecoflow_cloud_claudiosv/devices/internal/proto/ef_river3_pb2.py
+  s_49f82484dd1a75::t_0f05b691f3ed51 1-64
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "2384b4d6db26995406987474f806030d4d1857a5",
+  "prompts": {},
+  "sessions": {
+    "s_49f82484dd1a75": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "72903c4a-bf7e-4b41-88e6-8670cb39bf8a",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Claudio Spiess <claudiosv@users.noreply.github.com>"
+    }
+  }
+}
