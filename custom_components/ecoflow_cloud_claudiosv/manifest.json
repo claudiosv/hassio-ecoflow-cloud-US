@@ -1,0 +1,18 @@
+{
+  "domain": "ecoflow_cloud_claudiosv",
+  "name": "Ecoflow-Cloud (claudiosv fork)",
+  "codeowners": [
+    "@claudiosv"
+  ],
+  "config_flow": true,
+  "dependencies": ["mqtt"],
+  "documentation": "https://github.com/claudiosv/hassio-ecoflow-cloud-US",
+  "iot_class": "cloud_push",
+  "issue_tracker": "https://github.com/claudiosv/hassio-ecoflow-cloud-US/issues",
+  "requirements": [
+    "paho-mqtt>=1.6.1",
+    "protobuf>=6.32.0",
+    "jsonpath-ng>=1.6.1"
+  ],
+  "version": "v1.1.0"
+}
