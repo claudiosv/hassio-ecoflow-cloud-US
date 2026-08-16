@@ -57,6 +57,16 @@ device_by_product: OrderedDict[str, Type[BaseDevice]] = OrderedDict[str, Type[Ba
     "RIVER 2": public_river2.River2,
     "RIVER 2 Max": public_river2_max.River2Max,
     "RIVER 2 Pro": public_river2_pro.River2Pro,
+    # No confirmed public-API quota schema for River 3 exists (unlike RIVER_2/etc,
+    # upstream never wired one up either). Reusing the private/protobuf River3 class
+    # here: it's the only implementation available, and it already falls back to
+    # plain JSON parsing when protobuf decoding fails, so this degrades gracefully
+    # rather than crashing if the public API's field names don't match. Both key
+    # spellings are registered since EcoFlow's public device list may report either
+    # "RIVER 3" (productName) or "RIVER_3" (this integration's own inference
+    # fallback in public_api.py when productName is missing).
+    "RIVER 3": internal_river3.River3,
+    "RIVER_3": internal_river3.River3,
     "Smart Plug": public_smart_plug.SmartPlug,
     "PowerStream": public_powerstream.PowerStream,
     "Wave 3": public_wave3.Wave3,
