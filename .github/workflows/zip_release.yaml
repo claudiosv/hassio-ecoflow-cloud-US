@@ -25,20 +25,20 @@ jobs:
           version="${version#v}"
           yq e -P -o=json \
             -i ".version = \"${version}\"" \
-            "${{ github.workspace }}/custom_components/ecoflow_cloud/manifest.json"
+            "${{ github.workspace }}/custom_components/ecoflow_cloud_claudiosv/manifest.json"
 
       - name: 📦 Created zipped release package
         shell: bash
         run: |
-          cd "${{ github.workspace }}/custom_components/ecoflow_cloud"
+          cd "${{ github.workspace }}/custom_components/ecoflow_cloud_claudiosv"
           zip ecoflow-cloud.zip -r ./
 
       - name: 🔏 Sign release package
         uses: sigstore/gh-action-sigstore-python@v3.3.0
         with:
-          inputs: ${{ github.workspace }}/custom_components/ecoflow_cloud/ecoflow-cloud.zip
+          inputs: ${{ github.workspace }}/custom_components/ecoflow_cloud_claudiosv/ecoflow-cloud.zip
 
       - name: ⬆️ Upload zip to release
         uses: softprops/action-gh-release@v3.0.0
         with:
-          files: ${{ github.workspace }}/custom_components/ecoflow_cloud/ecoflow-cloud.zip
+          files: ${{ github.workspace }}/custom_components/ecoflow_cloud_claudiosv/ecoflow-cloud.zip
